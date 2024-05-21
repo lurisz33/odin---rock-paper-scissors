@@ -12,6 +12,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .button-container {
@@ -31,4 +32,34 @@ html, body {
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
+}
+
+#result-container {
+    margin-bottom: 20px;
+}
+
+.score-container {
+    margin-bottom: 20px;
+}
+
+.human-score-container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.computer-score-container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.win {
+    background-color: lightgreen;
+    color: black;
+}
+
+.loss {
+    background-color: indianred;
+    color: black;
 }
